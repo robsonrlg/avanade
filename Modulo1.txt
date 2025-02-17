@@ -94,5 +94,5 @@ Code Snippets: são pedaços de códigos pre-fabricados.
 
 
 
--Definir uma IDE(Ambiente integrado de desenvolvimento-inglês) e aumentar a produtividade
+-Definir uma IDE(Ambiente integrado de desenvolvimento-inglês) e aumentar a produtividade.
 
