@@ -2,3 +2,80 @@ Java fundamentos
 
 //Java básico
 
+-Apresentar a Hitória da linguagem
+
+O que é java?
+Comporta de funcionalidades chamada features(fonema fithures)
+
+1- Classes e objeto
+
+2- Encapsulamento
+
+3- Abstração
+
+4- Herança
+
+5- Polimorfismo
+
+Plataforma independente(bytecode) 
+Usa gerenciamento de memória
+Coleta de Lixo automático
+Tratamento de exceção e mecanismo de verificação de tipo em java.
+Recursos de criptografia e decriptografia para proteger dados.
+
+é compilado depois interpretado
+
+Java compila para gerar os bytecodes e JVM(Java virtual machine) interpreta o arquivo bytecode.
+
+Multi-thread
+thread - é um subprocesso  leve e independente que compartilha recursos, Multi-threading é o nome dado ao processo de vários threads sendo executados simultaneamente.
+
+História do java
+
+Primeiro o nome era oak mas como já tinha um a empresa com esse nome colocaram o nom e de uma cafeteria local
+
+JDK 1.0 - 23/01/1996 - primeira verçaõ utilizada para compatibilidade de navegadores mais antigos
+
+JDK 1.1 - 19/02/1997 - Obteve muitas bibliotecas adicionadas como JDBC driver para conexão com banco de dados.
+
+J2SE 1.2 - 8/12/1998 - Aumento de classes (API)
+
+J2SE 1.3 - 08/05/2000 - Incluido Bibliotecas JNDI, JavaSound entre outros
+
+J2SE 1.4 - 06/12/2002 - Foi criada palavra reservada "assert", biblioteca NIO
+
+J2SE 5.0 - 30/09/2004 - Introdução dos Genérics, Enumeração, autoboxing, for-eac, entre outros
+
+Java SE 6 - 11/12/2006 - Melhora significativa na performance e estabilidade e o surgimento do JIT.
+
+Java SE 7 - 28/06/2011 - Aperfeiçoamentos como suporte ao uso de strigs em condições de switch e etc.
+
+Java SE 8 - 18/03/2014 - Criações de expressões Lambdas; foreach, consumer.
+
+Java SE 9 - 21/10/2017 - Factory methods para coleções
+
+Java SE 10 - 20/03/2018 - API para criações de coleções imutaveis e a nova forma de se declarar variaveis locais
+
+Java SE 11 - 25/10/2018 - Methodos para ler e escrever string em arquivos readString() writeString() 
+
+Java SE 12 - 19/03/2019 - Switch Melhorada e metodo String indent e transform
+
+Java 13 - 17/10/2019 - Retorna valor de uma expressão switch.
+
+Java SE 14 - 17/03/2020 - pode usar records (preview)
+
+Atualmente o java é da Oracle
+
+
+
+
+
+-Explorar os recursos de cada plataforma
+
+
+
+-Configurar o ambiente para desenvolvimento
+
+
+
+-Definir uma IDE(Ambiente integrado de desenvolvimento-inglês) e aumentar a produtividade
