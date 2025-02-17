@@ -30,6 +30,8 @@ Java compila para gerar os bytecodes e JVM(Java virtual machine) interpreta o ar
 Multi-thread
 thread - é um subprocesso  leve e independente que compartilha recursos, Multi-threading é o nome dado ao processo de vários threads sendo executados simultaneamente.
 
+-Explorar os recursos de cada plataforma
+
 História do java
 
 Primeiro o nome era oak mas como já tinha um a empresa com esse nome colocaram o nom e de uma cafeteria local
@@ -66,16 +68,31 @@ Java SE 14 - 17/03/2020 - pode usar records (preview)
 
 Atualmente o java é da Oracle
 
-
-
-
-
--Explorar os recursos de cada plataforma
-
-
-
 -Configurar o ambiente para desenvolvimento
+
+Introdução a IDE(integrated Development Environment)
+
+Aceleração na escrita com Auto-complete ou IntelliSence
+Formatação de palavras e blocos de códigos
+Análise de erro de sintaxe
+Compilação do programa
+Depuração(Acompanhamento)de execução de programa.
+
+exemplos
+Visual studio code, Netbeans, Eclipse, Intellij
+
+Eclipse: Mais utilizada no ambiente corporativo com interface bem interativa
+
+Netbeans: Utilizada mais em ambientes Acadêmicose com verção menu e assistentes em português
+
+Intellij: Ofereça muitos recursos de inteligência para agilidade de nosso desenvolvimento com sugestões de ações bem assertivas
+
+VS Code: Hoje muito usado por desemvolvedores que já atuam com NodeJs ou plataformas front-end.
+
+Maven é uma ferramenta de automação de compilação usada primeiramente em java, mas pode ser usada em c#, Ruby etc...
+Code Snippets: são pedaços de códigos pre-fabricados.
 
 
 
 -Definir uma IDE(Ambiente integrado de desenvolvimento-inglês) e aumentar a produtividade
+
