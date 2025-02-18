@@ -1,0 +1,50 @@
+*Desenvolvimento web
+
+Processo que criação de websites e/ou aplicações para internet ou intranet.
+
+-internet- Rede pública
+-intranet- Rede privada(Normalmente em empresa)
+
+-Frontend - Parte visual, cria interface de usuário.
+tecnologias mais usadas:
+HTML(Hypertext Matkup Language):Estrutura do conteúdo da Web
+CSS(Cascaging Style Sheets):Estiliza e Apresenta o conteúdo HTML.
+Javascript:Torna as páginas interativas e dinâmicas
+
+-Backend  - Parte de processamento, o que fica no bastidor.
+
+Tecnologias mais usadas:
+Linguagens: Python, Ruby, PHP, Java, JavaScript e etc...
+Banco de dados: PostgreeSQL,MySQL, MongoDB, Oracle etc...
+Frameworks: Djago(python, Express(JavaScript), Spring Boot(Java)
+
+FullStack - Profissionais capaz de fazer front e back. 
+
+*Como web funciona
+
+Internet vs WEB
+A internet é uma rede global de computadores interconectados. A Web(World Wide Web), é um sistema criado para funcionar sobre a internet(rede global pública)
+
+*Internet (rede pública)
+-World Wide Web	(aplicação)
+
+HTTP(Hypertext Tranfer Protocol) - para tranferência dos dados, quando cliente manda solicitação para o servidor que mandar os arquivos solicitados.
+esquema:
+1.solicitação usuário(cliente):Colocando url no navegador e enter
+2.Resolução DNS(Domain Name System):URL traduzida para ip de destino.
+3.Conexão com servidor: Navegador utiliza o ip para conexão com servidor que está com site
+4.Resposta do servidor: Servidor processa solicitação e manda osr arquivos solicitados(HTML,CSS...)
+5.Renderização no navegador: O navegador interpreta os arquivos e monta a pagina para usuário.
+
+-FTP		(aplicação)
+-Email		(aplicação)
+-Telnet		(aplicação)
+
+-API (Interface de programação de aplicações):
+É um conjunto de regras e definições de software ou componentes se comuniquem entre si, funciona como um intermediário permitindo que pedidos e respostas sejam feitos por diferentas sistemas.
+
+Comparação
+Frontend - salão de um restaurante
+API	 - garçon
+Backend	 - Cozinheiros
+
