@@ -1,13 +1,45 @@
 *Introdução Spring framework
 
+O que é: Framework open source desenvolvido para a plataforma Java Baseado nos padrões de projetos inversão de controle e injeção de dependência.
+Sua estrutura é feita por módulos afins de reduzir a complexidade no desenvolvimento de aplicações simples ou corporativas.
+
 -Spring vs Java EE
+
+há muito tempo atrás o Java EE era muito complicado, o spring surgiu com uma alternativa mais fácil e simples, Com a chegada da versão 5 do Java EE já ficou mais próximos em termos de simplicidade.
 
 -O que é SpringBoot?
 
 -Conceito de IoC/DI
 
+Inversão de controle(Inversion of Control-IoC):
+É o redirecionamento do fluxo de execução de um código retirando parcialmente o controle sobre ele e delegando para um container, com propósito de minimizar acoplamento do código.
+
+Sem IoC eramos obrigados a criar um objeto e depois usar
+Com IoC o container cria os objetos necessários e só precisamos solicitar ao container.
+
+Injeção de Dependências: É um padrão de desenvolvimento com a finalidade de manter o baixo nivel de acoplamento entre módulos de um sistema.
+
 -Beans\Autowered\Scopes
 
--Spring Data JPA
+Beans: Objeto que é instanciado(criado), montado e gerenciado por um container através do princípio da inversão de controle.
+
+Scopes(escopos): 
+Singleton: é quando é um único objeto que é usado em toda a aplicação.
+
+Protopype: Quando o objeto é criado um novo acada requisição ao container.
+
+HTTP - Request: um bean é criado a cada requisição HTTP
+Os objetos existirão enquanto a requisição estiver em execução.
+
+HTTP - Session: um bean será criado a cada sessão de usuário, precisamos acessar 2 vezes para trestar os escopos específicos da web
+
+HTTP - Global: Ou Application Scope cria um bean para ciclo de vida do contexto da aplicação.
+
+Autowired: Uma indicação onde deverá ocorrer uma injeção automática de dependência
+byName: É buscado um método set que corresponde ao nome do Bean
+byType: É considerado o tipo da classe para inclusão do Bean
+byConstrutor: Usamos o construtor pra incluir a dependência.
+
+
 
 
