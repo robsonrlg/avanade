@@ -86,4 +86,4 @@ Dentro de resources tem o application.properties onde colocaremos as configuraç
 
 Bean e CommandLineRunner
 
-
+parei 13:15 no video
