@@ -1,0 +1,89 @@
+- Conhecendo o Springboot
+
+* O que é Springboot
+
+Spring framework é baseado no padrão de injeção de dependências, o Springboot foca na configuração automática
+
+Os desafios eram...
+
+Dependêcia Individual
+Verbosidade
+Imcompatibilidade de versões
+Complexidade de gestão
+Comfigurações complexas e repetitivas
+
+Dado a maior parte das configurações neessárias para o inicio de um projeto são sempre as mesmas, porque não iniciar um projeto com todas configurações já definidas?
+
+*Configurações Manuais
+
+
+
+*Starters
+
+Descritores de dependências, dinuindo consideravelmente  as linhas de códigos.
+
+Benefícios
+Coesão
+Versões compatíveis
+Otimização do tempo
+Comfiguração simples
+Foco no negócio
+
+*Principais Starters
+
+-data-jpa: Integração aop banco de dados via JPA - Hibernate
+-data-Mongodb: Integração com banco de dados MongoDB
+-web: Inclusão do container Tomcat para aplicação REST.
+-web-services: Webservices baseado na arquitetura SOAP.
+-batch: Implementação de JOBs de processos.
+-test: Disponibilização de recursos para testes unitários como jUnit
+-openfeign: Cliente HTTP beseado em interfaces
+-actuador: Gerenciamento de monitoramento da aplicação.
+
+
+
+*Configuração de fábrica
+
+Os primeiros passos
+
+Criando um projeto com initializr
+
+acessar o site https://start.spring.io/
+no nosso projeto iremos usar 
+
+Project: Maven project
+Language: Java
+Springboot: 2.5.4
+
+Project Metadata
+Group: dio
+Artifact: primeiros-passos
+Name: primeiros-passos
+Description: Primeiros passos com Spring Boot
+Package name(muito importante):dio.springboot
+packaging: Jar
+Java: O que voce tem instalado, no meu caso 8
+Dependencies: oque vove necessitar ex: JPA, Web,Actuator etc...no nosso projeto não colocaremos dependências.
+
+Clicar e generate(CTRL+enter)
+
+Irá gerar um projeto em zip com nome colocado nas configurações anteriores.
+deve-se extrair e verificar o conteúdo, os mais importantes são pom.xml e pasta src
+
+Importando o projeto maven na IDE
+
+Abrir sua IDE favorita e ir na opção de abrir(open)
+procurar a pasta do projeto e comfirmar, aguarde a ide baixar o que for necessário para continuar.
+
+Conhecendo a estrutura spring boot
+
+Iniciaremos em src > main > java > sua pasta > primeiros-passos
+
+No pom.xml tmb tem informações importantes para o projeto
+
+Dentro de resources tem o application.properties onde colocaremos as configurações porta de servidor, interação com banco de dados, email padrão, ftp etc....
+
+
+Bean e CommandLineRunner
+
+
